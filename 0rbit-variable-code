@@ -11,8 +11,8 @@ ao.send({
 })
 end
 
-Handlers.add("derinavakp",
-Handlers.utils.hasMatchingTag("Action", "derinavakp"),
+Handlers.add("mjallieras",
+Handlers.utils.hasMatchingTag("Action", "mjallieras"),
 function(msg)
 local token = msg.Tags.Token
 local url = "https://api.coingecko.com/api/v3/simple/price" .. "?ids=" .. token .. "&vs_currencies=usd"
